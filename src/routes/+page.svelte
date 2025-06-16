@@ -21,11 +21,11 @@
 <Benefits />
 <Features />
 <Services />
-<HowItWorks />
-<Testimonials />
-<Teams />
+<!-- <HowItWorks /> -->
+<!-- <Testimonials /> -->
+<!-- <Teams /> -->
 <Community />
-<Pricing />
+<!-- <Pricing />
 <Contact />
-<Faq />
+<Faq /> -->
 <Footer />

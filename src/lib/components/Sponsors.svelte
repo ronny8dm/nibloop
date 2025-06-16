@@ -1,50 +1,62 @@
 <script lang="ts">
   import {
     Crown,
-    Vegan,
+    Sparkles,
     Ghost,
     Puzzle,
-    Squirrel,
+    HandMetal,
     Cookie,
-    Drama
+    Drama,
   } from "lucide-svelte";
 
   interface SponsorsProps {
-    icon: 'crown' | 'vegan' | 'ghost' | 'puzzle' | 'squirrel' | 'cookie' | 'drama';
+    icon:
+      | "crown"
+      | "sparkles"
+      | "ghost"
+      | "puzzle"
+      | "hand-metal"
+      | "cookie"
+      | "drama";
     name: string;
   }
 
   const sponsors: SponsorsProps[] = [
-    { icon: "crown", name: "Acmebrand" },
-    { icon: "vegan", name: "Acmelogo" },
-    { icon: "ghost", name: "Acmesponsor" },
-    { icon: "puzzle", name: "Acmeipsum" },
-    { icon: "squirrel", name: "Acme" },
-    { icon: "cookie", name: "Accmee" },
-    { icon: "drama", name: "Acmetech" },
+    { icon: "crown", name: "Discovery" },
+    { icon: "sparkles", name: "Exclusivity" },
+    { icon: "ghost", name: "Community" },
+    { icon: "puzzle", name: "Authenticity" },
+    { icon: "hand-metal", name: "Taste" },
+    { icon: "cookie", name: "Support Local" },
+    { icon: "drama", name: "Trust" },
   ];
 
   const iconMap = {
     crown: Crown,
-    vegan: Vegan,
+    sparkles: Sparkles,
     ghost: Ghost,
     puzzle: Puzzle,
-    squirrel: Squirrel,
+    "hand-metal": HandMetal,
     cookie: Cookie,
     drama: Drama,
   };
 </script>
 
-<section id="sponsors" class="max-w-[75%] mx-auto pb-24 sm:pb-32">
-  <h2 class="text-lg md:text-xl text-center mb-6">Our Platinum Sponsors</h2>
+<section id="sponsors" class="max-w-[100%] mx-auto pb-24 sm:pb-32">
+  <h2 class="text-lg md:text-xl text-center mb-6">Our Values</h2>
 
   <div class="mx-auto overflow-hidden">
     <div class="flex animate-marquee gap-12">
-      {#each sponsors as { icon, name }}
-        <div class="flex items-center text-xl md:text-2xl font-medium whitespace-nowrap">
+      {#each Array(2) as _, i}
+        {#each sponsors as { icon, name }}
+        <div
+          class="flex items-center text-xl md:text-2xl font-medium whitespace-nowrap"
+        >
           <svelte:component this={iconMap[icon]} class="mr-2" strokeWidth={3} />
           {name}
         </div>
+        
+      {/each}
       {/each}
     </div>
   </div>
@@ -52,12 +64,16 @@
 
 <style>
   @keyframes marquee {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
   }
 
   .animate-marquee {
-    animation: marquee 25s linear infinite;
+    animation: marquee 5s linear infinite;
   }
 
   .animate-marquee:hover {

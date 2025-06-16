@@ -1,68 +1,66 @@
 <script lang="ts">
   import { Card, CardContent, CardHeader, CardTitle } from "$lib/components/ui/card";
   import {
-    Sparkle,
+    Bell,
     Tag,
     Paintbrush,
-    Blocks,
-    LineChart,
-    Wallet,
+    Lock,
+    Star,
+    MessageCircleIcon,
   } from "lucide-svelte";
 
   interface BenefitsProps {
-    icon: 'sparkle' | 'tag' | 'paintbrush' | 'blocks' | 'lineChart' | 'wallet';
+    icon: 'bell' | 'tag' | 'paintbrush' | 'lock' | 'star' | 'messageCircle';
     title: string;
     description: string;
   }
 
   const benefitList: BenefitsProps[] = [
     {
-      icon: "blocks",
-      title: "Build Brand Trust",
+      icon: "lock",
+      title: "Unlock Early Access",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+        "Get ahead of the crowd with first dibs on trending restaurants and limited-time offers.",
     },
     {
-      icon: "lineChart",
-      title: "More Leads",
+      icon: "star",
+      title: "Exclusive Member Perks",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+        "From 2-for-1 dishes to surprise drops, only waitlist members get early perks.",
     },
     {
-      icon: "wallet",
-      title: "Higher Conversions",
+      icon: "messageCircle",
+      title: "Shape the Experience",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+        "Help us build the ultimate foodie app by sharing feedback and testing features.",
     },
     {
-      icon: "sparkle",
-      title: "Test Marketing Ideas",
+      icon: "bell",
+      title: "Stay in the Loop",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+        "We’ll keep you updated with launch progress, invites, and insider-only updates.",
     },
   ];
 
   const iconMap = {
-    sparkle: Sparkle,
+    bell: Bell,
     tag: Tag,
     paintbrush: Paintbrush,
-    blocks: Blocks,
-    lineChart: LineChart,
-    wallet: Wallet,
+    lock: Lock,
+    star: Star,
+    messageCircle: MessageCircleIcon,
   };
 </script>
 
 <section id="benefits" class="container py-24 sm:py-32">
   <div class="grid lg:grid-cols-2 place-items-center lg:gap-24">
     <div>
-      <h2 class="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
+      <h2 class="text-lg text-primary mb-2 tracking-wider"></h2>
       <h2 class="text-3xl md:text-4xl font-bold mb-4">
-        Your Shortcut to Success
+        Be the First to Taste What’s Next
       </h2>
       <p class="text-xl text-muted-foreground mb-8">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus
-        reprehenderit architecto rerum similique facere odit deleniti
-        necessitatibus quo quae.
+        Join our foodie community and get early access to exclusive restaurant deals, hidden gems, and new features before anyone else.
       </p>
     </div>
 

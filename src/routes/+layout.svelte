@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { ModeWatcher } from "mode-watcher";
 	import { siteConfig } from "$lib/config/meta";
+	import CookieBanner from "$lib/components/CookieBanner.svelte";
 	import "../app.css";
 	let { children } = $props();
 </script>
@@ -26,3 +27,5 @@
 <ModeWatcher />
 
 {@render children()}
+
+<CookieBanner />

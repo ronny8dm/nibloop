@@ -1,11 +1,11 @@
 export const siteConfig = {
-    name: "Shadcn/Svelte Landing Page",
-    description: "A beautiful landing page template built with Shadcn/Svelte and SvelteKit",
-    url: "https://shadcn-sveltekit-landing-page.zxce3.net",
-    ogImage: "https://shadcn-sveltekit-landing-page.zxce3.net/og.png",
+    name: "Nibloop – Discover Hidden Restaurants & Exclusive Dining Deals Near You",
+    description: "Join Nibloop and get early access to the best hidden restaurants, real foodie reviews, and exclusive dining deals. Built for food lovers. Waitlist now open!",
+    url: "https://nibloop.com",
+    ogImage: "https://nibloop.com/og.png",
     links: {
-        twitter: "https://twitter.com/zxce3_",
-        github: "https://github.com/zxce3"
+        twitter: "https://twitter.com",
+        github: "https://github.com"
     },
-    keywords: ["shadcn", "svelte", "sveltekit", "landing page", "template"]
+    keywords: ["food app", "restaurant deals", "waitlist app", "dining discounts", "restaurant finder", "local food app", "exclusive food deals", "foodie app", "restaurant discovery", "hidden food spots", "find restaurants", "appetite alternative", "neotaste competitor", "dining waitlist", "best food near me"]
 }

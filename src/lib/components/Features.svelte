@@ -21,39 +21,39 @@
   const featureList: FeaturesProps[] = [
     {
       icon: "tabletSmartphone",
-      title: "Mobile Friendly",
+      title: "Designed for Food Lovers",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+        "Tailored for passionate eaters, not just casual diners.",
     },
     {
       icon: "badgeCheck",
-      title: "Social Proof",
+      title: "Early Access Perks",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+        "Be first to access offers, features, and events before public release.",
     },
     {
       icon: "goal",
-      title: "Targeted Content",
+      title: "Built with Community",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+        "Your voice shapes the product — early users get to vote, test, and suggest.",
     },
     {
       icon: "pictureInPicture",
-      title: "Strong Visuals",
+      title: "Curated City Maps",
       description:
-        "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+        "We highlight trending, local-only, and must-try spots — no clutter.",
     },
     {
       icon: "mousePointerClick",
-      title: "Clear CTA",
+      title: "Real Reviews, Not Ads",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+        "Every listing is recommended by real foodies, not paid placement.",
     },
     {
       icon: "newspaper",
-      title: "Clear Headline",
+      title: "Always Improving",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+        "We're building in public — and every waitlist user helps us improve faster.",
     },
   ];
 
@@ -71,17 +71,15 @@
 
 <section id="features" class="container py-24 sm:py-32">
   <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-    Features
+    
   </h2>
 
   <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-    What Makes Us Different
+    Why Join Nibloop Now?
   </h2>
 
   <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-    fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-    facere tenetur.
+    We’re not just another food app — we’re building something fresh. Here’s why early access matters and what makes Nibloop stand out.
   </h3>
 
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
