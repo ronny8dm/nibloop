@@ -5,9 +5,6 @@
       "runtime": "nodejs18.x",
       "memory": 1024
     }
-  },
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/api/waitlist", "dest": "/api/waitlist" }
-  ]
+    }
+
 }
