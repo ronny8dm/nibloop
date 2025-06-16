@@ -61,7 +61,7 @@
   class="w-[90%] md:w-[70%] lg:w-[50%] lg:max-w-screen-xl top-5 mx-auto sticky border z-40 rounded-2xl flex justify-between items-center p-2 bg-card shadow-md dark:shadow-dark shadow-light"
 >
   <a href="/" class="font-bold text-lg flex items-center">
-    <img src="/nibloop-02.png" alt="Nibloop Logo" class="w-full h-9 mr-2" />
+    <img src="/nibloop-02.png" alt="Nibloop Logo" class=" h-9 mr-2" />
   </a>
 
   <!-- Mobile -->
